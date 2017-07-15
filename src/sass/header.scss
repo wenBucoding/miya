@@ -1,0 +1,78 @@
+header{
+	.h{	
+    	background-color: #f2f2f2;
+		    .htop{position: relative;
+			    font-size: 12px;
+			    height: 29px;
+			    line-height: 29px;
+			    border-bottom: 1px solid #e5e5e5;
+			    width:1004px;margin:0 auto;
+			    img{vertical-align:middle;
+			    margin-right:10px;}
+		    }
+
+		    .htop_b{
+			    position:absolute;right:5px;top:5px;
+			    a{padding:0 10px;}
+			    a:nth-of-type(1){border-right:1px solid #ddd;}		    
+		    }
+		    a:hover{color:#fc85c2;}
+	}
+
+	//头部2
+	.htop1{position:relative;
+			font-size:12px;
+			width:1004px;margin:0 auto;
+		.headImg{margin-top:30px;}
+		
+		.headCar{position:absolute;top:45px;right:10px;}
+		
+		.headInput{
+			position:absolute;top:45px;right:190px;
+			
+			input{border:0;width:477px;height:35px;border:1px solid #fa4b9b;}
+
+			.search{display:block;height:38px;width:90px;background-color:#f94487;text-align:center;line-height:35px;color:#fff;position:absolute;top:0;right:0;}
+
+			p{
+				margin:10px;
+				a{padding:0 15px;border-right:1px solid #ddd;
+				}
+
+				a:nth-of-type(5){border:0;}
+				a:nth-of-type(1),a:nth-of-type(3){color:#f94487}
+
+			}
+
+		}
+
+		.headCar{
+
+			a{display:block;
+				width:108px;
+				height:35px;
+				border:1px solid #ddd;
+				text-align:center;line-height:36px;position:absolute;right:0;top:0;
+				span{
+					display:inline-block;
+					width:35px;height:25px;
+					border-radius:60%;
+					background:#e55282;
+					color:#fff;
+					line-height:25px;
+					text-align:center;
+					display:none;
+				}
+			}
+
+
+			img{margin-right:109px;}
+		}					
+	
+
+	}
+		
+		
+}
+
+   

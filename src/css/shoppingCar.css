@@ -1,0 +1,35 @@
+body { background: #f9f9f9; }
+
+.container { position: relative; }
+
+.container .myCar { width: 1004px; margin: 40px auto; }
+
+.container .myCar p { width: 1004px; height: 40px; border: 1px solid #e33; }
+
+.container .myCar p input { width: 20px; height: 20px; margin-left: 83px; }
+
+.container .myCar ul li { border: 1px solid #ff2069; position: relative; overflow: hidden; text-align: center; line-height: 100px; margin: 15px 0; }
+
+.container .myCar ul li span { margin: 50px; }
+
+.container .myCar ul li img { position: absolute; top: 5px; }
+
+.container .myCar ul li span:nth-of-type(2):hover { color: #f00; }
+
+.container .myCar ul li .del_price { font-size: 12px; margin-left: 10px; text-decoration: line-through; }
+
+.container .myCar ul li a { font-size: 20px; color: #f00; }
+
+.container .myCar ul li a input { border: 0; width: 60px; height: 20px; border: 1px solid #ddd; text-align: center; }
+
+.container .myCar ul li a .min { width: 30px; height: 30px; background: #999; cursor: pointer; }
+
+.container .myCar ul li a .plus { width: 30px; height: 30px; background: #999; cursor: pointer; }
+
+.container .myCar ul li a:nth-of-type(4) { width: 30px; height: 30px; background: #333; color: #fff; margin-left: 40px; cursor: pointer; }
+
+.container .totalPrice { position: absolute; right: 250px; margin-top: -20px; font-size: 26px; color: #f00; }
+
+.container .scroll_1 { position: fixed; top: 350px; left: 35px; z-index: 10; display: none; }
+
+.container .scroll_2 { position: fixed; top: 400px; right: 75px; z-index: 10; display: none; }

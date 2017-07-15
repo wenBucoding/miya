@@ -1,0 +1,168 @@
+body{background:#f9f9f9;}
+.container{position:relative;
+	//导航
+	.nav{position:relative;
+		.nav_a{background-color:#fb3892;
+			.nav_1{
+				width:1004px;margin:60px auto;overflow:hidden;				
+				
+				h3{width:230px;
+					height:52px;
+					line-height:52px;color:#fff;padding-left:10px;float:left;
+				}
+				//一级导航下的p		
+				.pl a{display:block;float:left;font-size:16px;color:#fff;line-height:52px;
+				padding:0 20px;
+
+				}
+
+				.pl a:hover{
+					background-color:#ec0971;
+				}
+			 //第一个高亮
+			 .ahot{
+					background-color:#ec0971;
+				}
+
+			}
+		}
+
+
+		.nav_2{
+			position:absolute;top:53px;left:220px;z-index:13;
+			background:#fffef8;
+			width:230px;
+			dl{height:72px;
+				border-bottom:1px dotted #ddd;
+				dt{	margin:5px;
+					color:#fb78a7;
+					font-weight:800;
+				}
+
+				p a{
+					padding:0 5px;
+
+				}
+				p .hot{color:#ec0971;}
+			}
+
+			dl:hover{
+				border-left:2px solid #fc3893;
+			}
+
+			
+			//导航1
+			.dl_a{display:none;
+				width:650px;height:300px;
+				background:#fffef8;
+				position:absolute;top:0;left:230px;z-index:15;
+				.dl_a1{	width:255px;				
+					height:300px;					
+					background:#fffef8;
+					
+					h3{
+						color:#222222;
+						border-bottom:1px solid #ddd;
+						padding:10px 0;
+					}
+					P{margin:10px;}
+					p a{
+						padding:5px 14px;
+					}
+
+				}
+
+
+				.dl_a1:nth-of-type(2){
+					position:absolute;top:0;left:280px;
+				}
+			}
+
+			//导航2
+			.dl_a:nth-of-type(2){
+				margin-top:75px;
+			}
+
+			//导航3
+			.dl_a:nth-of-type(3){
+				margin-top:150px;
+			}
+		}
+	}
+	
+	//轮播图
+	.content{
+		width:1423px;height:480px;
+		margin-top:-60px;	
+	}
+
+	//小图
+	
+	.sp{	
+		background:#fff;width:790px;height:107px;margin:10px 0 0 460px ;
+		span{display:inline-block;width:117px;height:104px;}
+		img{width:100%;height:100%;}
+	}
+
+
+
+	//侧边图
+	.scroll_1{
+		position:fixed;top:350px;left:35px;z-index:10;
+		display:none;
+	}
+
+	.scroll_2{
+		position:fixed;top:400px;right:75px;z-index:10;
+		display:none;
+	}
+
+
+	//分页加载
+	.datalist{background:#fff;
+		width:1004px;margin:0 auto;
+		ul{	overflow:hidden;border:1px solid #fc0;
+			margin:30px 0;
+			li{
+				float:left;
+				a{
+					display:block;
+					width:200px;
+					height:200px;
+					img{width:100%;height:100%;}
+				}
+
+
+				h4{color:#ec0971;margin-left:18px;}
+
+				p{margin-left:18px;}
+
+				p span:nth-of-type(1){
+					font-size:18px;
+					color:#f00;					
+				}
+
+
+				p span:nth-of-type(2){
+					text-decoration:line-through;
+					margin-left:20px;
+				}
+			}
+		}
+	}
+
+	//页码提示
+	.number{
+		width:1004px;margin:40px 550px;
+		overflow:hidden;
+		.active{background-color:#999;}		
+		p{
+			float:left;
+			a{font-size:18px;padding:5px;
+				color:#ff0;text-align:center;margin:30px 10px;
+			}
+		}
+
+	}
+	
+}

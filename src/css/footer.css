@@ -1,0 +1,39 @@
+footer .foot { border-bottom: 1px solid #ddd; padding: 40px 0; background: #fff; }
+
+footer .footImg { width: 1004px; margin: 0 auto; }
+
+footer .footImg a { padding: 55px 45px; }
+
+footer .ft { border-bottom: 1px solid #ddd; }
+
+footer .ft .foot_a { overflow: hidden; width: 1004px; margin: 0 auto; }
+
+footer .ft .foot_a h3 { color: #333333; padding: 25px 0; font-weight: 900; }
+
+footer .ft .foot_a li { margin-bottom: 15px; color: #666666; }
+
+footer .ft .foot_a ul { float: left; margin-right: 75px; }
+
+footer .ft .foot_a ul:nth-of-type(5) { border-right: 1px solid #ddd; padding-right: 10px; }
+
+footer .ft .foot_b { position: relative; }
+
+footer .ft .foot_b h3 { color: #333333; }
+
+footer .ft .foot_b a:nth-of-type(3) img { position: absolute; top: 65px; right: 55px; }
+
+footer .ft .foot_b .showImg img:hover { background: url(../img/foot_12.png) no-repeat; }
+
+footer .foot_c { width: 1004px; margin: 0 auto; }
+
+footer .foot_c p { text-align: center; margin: 20px 0; }
+
+footer .foot_c p a { padding: 0 18px; border-right: 1px solid #ddd; }
+
+footer .foot_c p a:last-child { border: 0; }
+
+footer .foot_c p a:hover { color: #f94487; }
+
+footer .foot_d { width: 1004px; margin: 0 auto; }
+
+footer .foot_d p { text-align: center; margin-top: 10px; }

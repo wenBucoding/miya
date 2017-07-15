@@ -1,0 +1,77 @@
+body{background:#f9f9f9;}
+.container{position:relative;
+
+	.myCar{
+		width:1004px;margin:40px auto;
+		p{width:1004px;height:40px;border:1px solid #e33;
+			input{width:20px;height:20px;margin-left:83px;}
+		}
+		ul{
+			li{	border:1px solid #ff2069;
+				position:relative;
+				overflow:hidden;
+				text-align:center;
+				line-height:100px;
+				margin:15px 0;
+				span{margin: 50px;}
+				img{position:absolute;top:5px;}
+				span:nth-of-type(2):hover{
+					color:#f00;
+				}
+
+				.del_price{
+					font-size:12px;
+					margin-left:10px;
+					text-decoration:line-through;
+				}
+
+				a{font-size:20px;color:#f00;
+					input{border:0;
+						width:60px;height:20px;
+						border:1px solid #ddd;
+						text-align:center;
+					}
+
+					.min{width:30px;height:30px;
+
+						background:#999;
+						cursor:pointer;
+					}
+
+					.plus{width:30px;height:30px;
+
+						background:#999;
+						cursor:pointer;
+					}
+				}
+
+
+				a:nth-of-type(4){
+					width:30px;height:30px;
+					background:#333;
+					color:#fff;
+					margin-left:40px;
+					cursor:pointer;
+				}
+			}
+		}
+	}
+
+	.totalPrice{position:absolute;right:250px;margin-top:-20px;
+	font-size:26px;color:#f00;}
+	
+
+	//侧边图
+	.scroll_1{
+		position:fixed;top:350px;left:35px;z-index:10;
+		display:none;
+	}
+
+	.scroll_2{
+		position:fixed;top:400px;right:75px;z-index:10;
+		display:none;
+	}
+
+
+	
+}

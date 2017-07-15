@@ -1,0 +1,39 @@
+header .h { background-color: #f2f2f2; }
+
+header .h .htop { position: relative; font-size: 12px; height: 29px; line-height: 29px; border-bottom: 1px solid #e5e5e5; width: 1004px; margin: 0 auto; }
+
+header .h .htop img { vertical-align: middle; margin-right: 10px; }
+
+header .h .htop_b { position: absolute; right: 5px; top: 5px; }
+
+header .h .htop_b a { padding: 0 10px; }
+
+header .h .htop_b a:nth-of-type(1) { border-right: 1px solid #ddd; }
+
+header .h a:hover { color: #fc85c2; }
+
+header .htop1 { position: relative; font-size: 12px; width: 1004px; margin: 0 auto; }
+
+header .htop1 .headImg { margin-top: 30px; }
+
+header .htop1 .headCar { position: absolute; top: 45px; right: 10px; }
+
+header .htop1 .headInput { position: absolute; top: 45px; right: 190px; }
+
+header .htop1 .headInput input { border: 0; width: 477px; height: 35px; border: 1px solid #fa4b9b; }
+
+header .htop1 .headInput .search { display: block; height: 38px; width: 90px; background-color: #f94487; text-align: center; line-height: 35px; color: #fff; position: absolute; top: 0; right: 0; }
+
+header .htop1 .headInput p { margin: 10px; }
+
+header .htop1 .headInput p a { padding: 0 15px; border-right: 1px solid #ddd; }
+
+header .htop1 .headInput p a:nth-of-type(5) { border: 0; }
+
+header .htop1 .headInput p a:nth-of-type(1), header .htop1 .headInput p a:nth-of-type(3) { color: #f94487; }
+
+header .htop1 .headCar a { display: block; width: 108px; height: 35px; border: 1px solid #ddd; text-align: center; line-height: 36px; position: absolute; right: 0; top: 0; }
+
+header .htop1 .headCar a span { display: inline-block; width: 35px; height: 25px; border-radius: 60%; background: #e55282; color: #fff; line-height: 25px; text-align: center; display: none; }
+
+header .htop1 .headCar img { margin-right: 109px; }
